@@ -1,0 +1,5 @@
+# CB030
+A 68030 SBC for hobbyists
+CB030 is named after Cecil B. a 680×0 enthusiast who has motivated me to update the Tiny030 design and made it available to hobbyists. It is based on a 24MHz 68030, 16 Meg DRAM initially but 64/128 Meg final, 512K boot flash, compact flash mass storage, dual serial ports, and an I/O expansion port on a 4“ x 4” pc board. The emphasis is on a capable yet economical foundation that hobbyists can build on. The design will have mostly through-hole components, but to reduce complexity and cost of components and PC board, it will have a surface mounted CPLD as glue logic. The surface mounted CPLD can be assembled and programmed by an individual such as myself or assembly shop and the remainder assembled by the end users.
+
+Here is link to CB030 rev0
