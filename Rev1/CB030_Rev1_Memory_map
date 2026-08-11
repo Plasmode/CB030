@@ -3,21 +3,21 @@ The memory map of CB030 (rev1) at reset is as follow:
 
 - EPROM from 0x0 to 0xFEFF_FFFF, the EPROM is 512K (0x0-0x7FFFF), the memory is aliased every 512K up to 0xFEFF_FFFF.
 - I/O resources is at 0xFF00_0000 to 0xFFFF_FFFF
--  68681 address is 0xFFFF_F000-0xFFFF_FFFF
--  Compact flash interface is 0xFFFF_E000-0xFFFF_EFFF
--  RC2014-like expansion slot is from 0xFFFF_C000-0xFFFF_CFFF for I/O addresses (nIORQ signal asserted), 0xFFFF_D000 to 0xFFFF_DFFF for memory addresses (nMREQ signal asserted).
--  Remap register is 0xFFFF_8000-0xFFFF_8FFF, any access (read or write) to 0xFFFF_8000 will cause EPROM to reside in 0xFE00_0000 to 0xFEFF_FFFF
--  (rev1.2 version of CPLD) 100Hz level 2 autovector interrupt turned on by accessing 0xFFFF_9800. Turn off the 100Hz timer by accessing 0xFFFF_9000
+-   68681 address is 0xFFFF_F000-0xFFFF_FFFF
+-   Compact flash interface is 0xFFFF_E000-0xFFFF_EFFF
+-   RC2014-like expansion slot is from 0xFFFF_C000-0xFFFF_CFFF for I/O addresses (nIORQ signal asserted), 0xFFFF_D000 to 0xFFFF_DFFF for memory addresses (nMREQ signal asserted).
+-   Remap register is 0xFFFF_8000-0xFFFF_8FFF, any access (read or write) to 0xFFFF_8000 will cause EPROM to reside in 0xFE00_0000 to 0xFEFF_FFFF
+-   (rev1.2 version of CPLD) 100Hz level 2 autovector interrupt turned on by accessing 0xFFFF_9800. Turn off the 100Hz timer by accessing 0xFFFF_9000
 
 Once the remap register is access, the memory map is changed to:
 
 - RAM from 0x0 to 0x7FF_FFFF. If the DRAM is single bank 16 meg DRAM, it is located at 0x0-0x100_0000 and aliased three time to 0x3FF_FFFF. If the DRAM is 64 meg, then it is located at 0x0-0x3FF_FFFF. If the DRAM is 128meg it is located from 0x0-0x7FF_FFFF.
 - EPROM from 0xFE00_0000 to 0xFEFF_FFFF, the EPROM is 512K, the memory is aliased every 512K up to 0xFEFF_FFFF.
 - I/O from 0xFFFF_0000 to top of memory
--  68681 address is 0xFFFF_F000-0xFFFF_FFFF
--  Compact flash interface is 0xFFFF_E000-0xFFFF_EFFF
--  RC2014-like expansion slot is from 0xFFFF_C000-0xFFFF_CFFF for I/O addresses (nIORQ signal asserted), 0xFFFF_D000 to 0xFFFF_DFFF for memory addresses (nMREQ signal asserted).
--  Remap register is 0xFFFF_8000-0xFFFF_8FFF, any access (read or write) to 0xFFFF_8000 will cause EPROM to reside in 0xFE00_0000 to 0xFEFF_FFFF.
+-   68681 address is 0xFFFF_F000-0xFFFF_FFFF
+-   Compact flash interface is 0xFFFF_E000-0xFFFF_EFFF
+-   RC2014-like expansion slot is from 0xFFFF_C000-0xFFFF_CFFF for I/O addresses (nIORQ signal asserted), 0xFFFF_D000 to 0xFFFF_DFFF for memory addresses (nMREQ signal asserted).
+-   Remap register is 0xFFFF_8000-0xFFFF_8FFF, any access (read or write) to 0xFFFF_8000 will cause EPROM to reside in 0xFE00_0000 to 0xFEFF_FFFF.
 
 EQU template for 68681
 
@@ -45,6 +45,7 @@ STARTCTR equ $FFFFF01C    * start counter command reg (read)
 SETOPR    equ $FFFFF01C    * bit set output register bits (write)
 CLROPR    equ $FFFFF01E    * bit clear output register (write)
 OPCR    equ $FFFFF01A    * output configuration register(write)
+
 EQU template for CF interface
 
 CFdata  equ $FFFFE000       * CF data register
