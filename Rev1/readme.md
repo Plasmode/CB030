@@ -34,7 +34,7 @@ Software
 - CP/M68K [BIOS](CB030Rev1Software/cb030bios_cpm68k.zip)
 - CP/M68K [distribution files](CB030Rev1Software/cpm68k_distro.zip)
 - CP/M68K [CCP/BDOS](CB030Rev1Software/cpm15000-010_ccp_bdos.zip)
-- CF image of CP/M68K files. Copy the image to 512MB or larger CF disk using disk imaging tools like Win32DiskImager
-- EPROM programming file for 512Kx8 EPROM
-- 16 meg DRAM memory diagnostic
-- 64meg DRAM memory diagnostic
+- [CF image](CB030Rev1Software/cb030_cpm68k_512m_CF_image.zip) of CP/M68K files. Copy the image to 512MB or larger CF disk using disk imaging tools like Win32DiskImager
+- [EPROM programming file](CB030Rev1Software/cb030bug_r0_5_cpm_ehbasic.zip) for 512Kx8 EPROM
+- [16 meg DRAM memory diagnostic](CB030Rev1Software/CB030R1_dram16m_memtest.zip)
+- [64meg DRAM memory diagnostic](CB030Rev1Software/CB030R1_dram64m_memtest.zip)
