@@ -24,7 +24,7 @@ Design Information
 - [Schematic](cb030_rev1_scm.pdf)
 - [Gerber photoplot, Rev 1.1](cb030_rev1_1_gerber.zip)
 - [Bill of Materials](CB030_rev1_bill_of_material.pdf)
-- EPM7128SQC100 design files The CPLD is updated to include an internal 100Hz interrupt source that can be turn on or off under software control. Revision number is now assigned to CPLD. The CPLD with internal 100Hz interrupt is version 1.2
+- [EPM7128SQC100 design files](cb030_r1_2CPLD_design_files_cf_fix_new100hz_irq.zip) The CPLD is updated to include an internal 100Hz interrupt source that can be turn on or off under software control. Revision number is now based on CPLD. The CPLD with internal 100Hz interrupt is version 1.2
 - Memory map
 - Discrete I/O port pictorial diagram
 
