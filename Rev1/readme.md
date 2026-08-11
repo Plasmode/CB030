@@ -21,9 +21,9 @@ CB030 is simple to build but with sophisticated capabilities. This is possible w
 When CB030 is reset or powered on, its entire memory map, except the top 32K of the memory (0xFFFF8000-0xFFFFFFFF) is mapped to the EPROM. The DRAM which is normally located at 0x0 is not accessible. However, by accessing (read or write) a location at 0xFFFF8000, the EPROM is mapped to 0xFE000000-0xFEFFFFFF and DRAM is now visible starting from 0x0.
 
 Design Information
-- Schematic
-- Gerber photoplot, Rev 1.1
-- Bill of Materials
+- [Schematic](cb030_rev1_scm.pdf)
+- [Gerber photoplot, Rev 1.1](cb030_rev1_1_gerber.zip)
+- [Bill of Materials](CB030_rev1_bill_of_material.pdf)
 - EPM7128SQC100 design files The CPLD is updated to include an internal 100Hz interrupt source that can be turn on or off under software control. Revision number is now assigned to CPLD. The CPLD with internal 100Hz interrupt is version 1.2
 - Memory map
 - Discrete I/O port pictorial diagram
