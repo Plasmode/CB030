@@ -15,36 +15,26 @@ Features
 - 5V 1Amp
 
 Functions
+
 CB030 is simple to build but with sophisticated capabilities. This is possible with an economical but capable Complex Programmable Logic Device (CPLD), Intel (formerly Altera) EPM7128S. All address decode, DRAM controller, dynamic bus sizing, cache interface, and RAM/EPROM remapping are done in the CPLD.
 
 When CB030 is reset or powered on, its entire memory map, except the top 32K of the memory (0xFFFF8000-0xFFFFFFFF) is mapped to the EPROM. The DRAM which is normally located at 0x0 is not accessible. However, by accessing (read or write) a location at 0xFFFF8000, the EPROM is mapped to 0xFE000000-0xFEFFFFFF and DRAM is now visible starting from 0x0.
 
 Design Information
-Schematic
-
-Gerber photoplot, Rev 1.1
-
-Bill of Materials
-
-EPM7128SQC100 design files The CPLD is updated to include an internal 100Hz interrupt source that can be turn on or off under software control. Revision number is now assigned to CPLD. The CPLD with internal 100Hz interrupt is version 1.2
-
-Memory map
-
-Discrete I/O port pictorial diagram
+- Schematic
+- Gerber photoplot, Rev 1.1
+- Bill of Materials
+- EPM7128SQC100 design files The CPLD is updated to include an internal 100Hz interrupt source that can be turn on or off under software control. Revision number is now assigned to CPLD. The CPLD with internal 100Hz interrupt is version 1.2
+- Memory map
+- Discrete I/O port pictorial diagram
 
 Software
-CB030 monitor
 
-CP/M68K BIOS
-
-CP/M68K distribution files
-
-CP/M68K CCP/BDOS
-
-CF image of CP/M68K files. Copy the image to 512MB or larger CF disk using disk imaging tools like Win32DiskImager
-
-EPROM programming file for 512Kx8 EPROM
-
-16 meg DRAM memory diagnostic
-
-64meg DRAM memory diagnostic
+- CB030 monitor
+- CP/M68K BIOS
+- CP/M68K distribution files
+- CP/M68K CCP/BDOS
+- CF image of CP/M68K files. Copy the image to 512MB or larger CF disk using disk imaging tools like Win32DiskImager
+- EPROM programming file for 512Kx8 EPROM
+- 16 meg DRAM memory diagnostic
+- 64meg DRAM memory diagnostic
