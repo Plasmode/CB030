@@ -30,10 +30,10 @@ Design Information
 
 Software
 
-- CB030 monitor
-- CP/M68K BIOS
-- CP/M68K distribution files
-- CP/M68K CCP/BDOS
+- [CB030 monitor](cb030bug_r0_6.zip)
+- CP/M68K [BIOS](cb030bios_cpm68k.zip)
+- CP/M68K [distribution files](cpm68k_distro.zip)
+- CP/M68K [CCP/BDOS](CB030Rev1Software/cpm15000-010_ccp_bdos.zip)
 - CF image of CP/M68K files. Copy the image to 512MB or larger CF disk using disk imaging tools like Win32DiskImager
 - EPROM programming file for 512Kx8 EPROM
 - 16 meg DRAM memory diagnostic
