@@ -38,3 +38,12 @@ Software
 - [EPROM programming file](CB030Rev1Software/cb030bug_r0_5_cpm_ehbasic.zip) for 512Kx8 EPROM
 - [16 meg DRAM memory diagnostic](CB030Rev1Software/CB030R1_dram16m_memtest.zip)
 - [64meg DRAM memory diagnostic](CB030Rev1Software/CB030R1_dram64m_memtest.zip)
+
+Manuals and Instructions
+
+- Getting Started with CB030
+- Pictorial construction guide
+- Setting up a new CB030. This is continuation of the pictorial construction guide
+- How to update CPLD
+- CB030 development blog
+- CB030 Monitor Manual
