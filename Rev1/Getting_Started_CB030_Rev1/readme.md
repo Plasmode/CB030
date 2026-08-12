@@ -1,6 +1,6 @@
-Getting Started with CB030 Rev1
+##Getting Started with CB030 Rev1
 
-Introduction
+#Introduction
 
 This guide assume you already have a fully assembled CB030 rev1 as shown in the picture above.
 
@@ -112,7 +112,7 @@ To run the new BASIC program, type:
 asciiart
 
 You should see the following:
-
+```
 000000011111111111111111122222233347E7AB322222111100000000000000000000000000000
 000001111111111111111122222222333557BF75433222211111000000000000000000000000000
 000111111111111111112222222233445C      643332222111110000000000000000000000000
