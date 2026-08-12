@@ -48,68 +48,68 @@ A new blank CF disk needs to be formated first and then loaded with CP/M68K file
 
 To format a new CF disk, type:
 
-init b:
+*init b:*
 
-init c:
+*init c:*
 
-init d:
+*init d:*
 
-init e:
+*init e:*
 
 CP/M will ask you to confirm, press 'y' to go ahead with the format command
 
 To transfer file(s) with gkermit to a read-write drive (drive E in this example), type:
 
-e:
+*e:*
 
-a:gkermit -r
+*a:gkermit -r*
 
 Select kermit protocol in your serial terminator emulator and send one or more files (in TeraTerm: File → Transfer → Kermit → Send, then pick the file or files to send).
 
 ### Test drive CB030
 First, change to a new drive and copy CP/M files to it:
 
-pip b:=e:*.*[v] ← this command copies all files from drive E to drive B with verify
+*pip b:=e:*.*[v]* ← this command copies all files from drive E to drive B with verify
 
 To run microEMACS, type:
 
-me hello.c
+*me hello.c*
 
 The microEMACS screen editor will open with a blank screen, type:
 
-main()
+*main()*
 
-{
+*{*
 
-printf(“Hello World”);
+*printf(“Hello World”);*
 
-}
+*}*
 
 ctrl-Z to save and exit microEMACS
 
 To compile the Hello World program, type:
 
-c hello
+*c hello*
 
 To link the Hello World program, type:
 
-clink hello
+*clink hello*
 
 to run the new Hello World program, type:
 
-hello
+*hello*
 
 The CP/M distribution include a simple BASIC program, asciiart.bas. To compile this BASIC program, type:
 
-cb68 asciiart.bas
+*cb68 asciiart.bas*
 
 To link with BASIC library, type:
 
-link68 asciiart,cb68.l68
+*link68 asciiart,cb68.l68*
 
 To run the new BASIC program, type:
 
-asciiart
+*asciiart*
 
 You should see the following:
 ```
