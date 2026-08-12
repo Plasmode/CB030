@@ -2,6 +2,8 @@
 
 ### Introduction
 
+![annotated cb030 rev1]()
+
 This guide assume you already have a fully assembled CB030 rev1 as shown in the picture above.
 
 Connecting console serial port
