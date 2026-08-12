@@ -41,7 +41,7 @@ Software
 
 Manuals and Instructions
 
-- Getting Started with CB030
+- [Getting Started](Getting_Started_CB030_Rev1) with CB030
 - Pictorial construction guide
 - Setting up a new CB030. This is continuation of the pictorial construction guide
 - How to update CPLD
