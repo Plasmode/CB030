@@ -11,7 +11,7 @@ Powering Up
 CB030 requires regulated 5V, 1amp. The power plug is 2.5mm X 5.5mm which is not compatible with the more popular 2.1mm X 5.5mm connector.
 
 Apply power to CB030 and the following message will display after about 1 second delay:
-
+`
 CB030Bug
 2/26/20 v0.5, type “he” for help
 >
@@ -34,7 +34,7 @@ du [address] <line count> dump specified number of lines
 bo boot into CP/M68K, same as “go 15000”
 eh start EhBasic, same as “go 4196”
 >
-
+`
 Please refer to CB030 Monitor manual for description of various monitor commands.
 
 CP/M68K
