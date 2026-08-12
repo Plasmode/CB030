@@ -37,7 +37,7 @@ eh start EhBasic, same as “go 4196”
 ```
 Please refer to CB030 Monitor manual for description of various monitor commands.
 
-CP/M68K
+### CP/M68K
 To run CP/M68K from the monitor, type 'bo' and the CP/M68K A> prompt will display
 
 Drive A is read-only drive reside on EPROM. It contains the formatting software, 'init.68k' and file transfer file, 'gkermit.68k'
@@ -66,7 +66,7 @@ a:gkermit -r
 
 Select kermit protocol in your serial terminator emulator and send one or more files (in TeraTerm: File → Transfer → Kermit → Send, then pick the file or files to send).
 
-Test drive CB030
+### Test drive CB030
 First, change to a new drive and copy CP/M files to it:
 
 pip b:=e:*.*[v] ← this command copies all files from drive E to drive B with verify
