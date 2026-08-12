@@ -2,7 +2,7 @@
 
 ### Introduction
 
-![annotated cb030 rev1]()
+![annotated cb030 rev1](cb030_rev1_topview_annotated.jpg)
 
 This guide assume you already have a fully assembled CB030 rev1 as shown in the picture above.
 
